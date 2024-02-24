@@ -1,5 +1,5 @@
 import logging
-
+import time
 import requests
 from bs4 import BeautifulSoup
 
@@ -79,6 +79,8 @@ class Scraper:
 
             interviews_on_page = self.scrape(page_url)
             all_interviews.extend(interviews_on_page)
+
+            time.sleep(1)
 
         print(f"\n📋Total questions fetched: {len(all_interviews)}")
         helper = Helper()
