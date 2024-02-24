@@ -76,18 +76,18 @@ For example, to crawl the first 100 pages, modify the `main.py` file as follows:
 scraper.scrape_pages(0, 100)  # Set the desired number of pages; default will be 0, 917
 ```
 
-After the program executes, a `.csv` file will be generated in the `data` folder of the cloned repo. <br>
-That data can then be used in programs such as MS Excel to easily sort, filter and extract important data. You can also view it inside of IDE's such as PyCharm either in text format, or table format.
+After the program executes, a `.csv` file will be generated in your `Desktop` folder. <br>
+That data can then be used in programs such as MS Excel to easily sort, filter and extract important data. You can also view it inside of IDE's such as PyCharm, either in text format, or table format.
 
 ## Contribute
 All contributors are welcome!<br>
 You know the drill:
 
-- fork the repository
-- create a new branch for your feature or bug fix: `git checkout -b feature/my-feature`
-- commit your changes: `git commit -m "appropriate comment"`
-- push to your branch `git push origin feature/my-feature`
-- create a pull request explaining your changes and improvements (be as detailed as possible)
+- Fork the repository
+- Create a new branch for your feature or bug fix: `git checkout -b feature/my-feature`
+- Commit your changes: `git commit -m "appropriate comment"`
+- Push to your branch `git push origin feature/my-feature`
+- Create a pull request explaining your changes and improvements (be as detailed as possible)
 
 ## Author Notes
 
