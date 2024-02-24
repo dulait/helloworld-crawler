@@ -1,3 +1,5 @@
+![main.py](https://media.giphy.com/media/wBTHo1kdGDdtUuMsz6/giphy.gif)
+
 ## Table of Contents
 - [Project Description](#project-description)
 - [Why?](#why)
