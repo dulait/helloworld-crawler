@@ -86,4 +86,3 @@ class Scraper:
         helper = Helper()
         helper.format_and_save(all_interviews)
 
-        print("\n✅Data successfully saved to data/interview_data.csv\n🍀Good luck!")
