@@ -1,3 +1,5 @@
+import os.path
+
 import pandas as pd
 
 
@@ -31,4 +33,10 @@ class Helper:
         helper = Helper()
 
         formatted_data = helper.format_data(data)
-        helper.save_data(formatted_data, 'data/interview_data_test.csv')
+
+        desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
+
+        file_path = os.path.join(desktop_path, 'interview_data.csv')
+        helper.save_data(formatted_data, file_path)
+
+        print(f"\n✅Data successfully saved to {file_path}.\n🍀Good luck!")
